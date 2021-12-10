@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "225577716408",
+    "project_id": "weather-6f971",
+    "storage_bucket": "weather-6f971.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225577716408:android:27b3cad4abb4e3e2f4c24d",
+        "android_client_info": {
+          "package_name": "abd.qasem.weather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225577716408-mphkgu29f7rl9rq7lk924bspm0q2fogl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOFlDG8HP6Gx-stP5PqmGC9cvOHprJLDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225577716408-mphkgu29f7rl9rq7lk924bspm0q2fogl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
