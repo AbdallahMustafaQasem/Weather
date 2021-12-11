@@ -9,14 +9,15 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/color01"
-        tools:context=".presentation.view.SplashFragment">
+        android:background="@color/color02"
+        tools:context=".presentation.view.MainWeatherFragment">
+
 
         <TextView
             android:id="@+id/text"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Splash Fragment" />
+            android:text="Main Fragment" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
