@@ -2,7 +2,7 @@
 buildscript {
 
     ext.hilt_version = '2.38.1'
-    ext.kotlin_version = "1.5.0"
+    ext.kotlin_version = "1.5.31"
     ext.nav_version = "2.4.0-alpha10"
     ext.rxandroid_version = '2.1.1'
     ext.room_version = '2.4.0-beta01'
@@ -10,16 +10,15 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven {url "https //dl.bintray.com/kotlin/kotlin-eap"}
+
     }
 
 
     dependencies {
-        classpath "com.android.tools.build:gradle:7.0.3"
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.20"
-
-
+        classpath "com.android.tools.build:gradle:7.0.4"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.31"
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
-
         classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
         classpath 'com.google.gms:google-services:4.3.10'
 
@@ -35,6 +34,7 @@ allprojects {
         mavenCentral()
         maven { url "https://jitpack.io" }
         maven { url "https://dl.bintray.com/mikefot/maven/" }
+        maven {url "https //dl.bintray.com/kotlin/kotlin-eap"}
     }
 }
 
